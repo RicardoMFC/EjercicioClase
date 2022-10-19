@@ -1,6 +1,7 @@
 def ejercicio1():
-    lista=["P", "y"]
+    lista=["P", "t"]
     lista_aux=list("python")
+    lista[1]="y"
     for i in range (len(lista), len(lista_aux)):
         lista.append(lista_aux[i])
     print(lista)
@@ -16,6 +17,4 @@ def ejercicio2():
 def main():
     ejercicio1()
     ejercicio2()
-
-if __name__=='__main__':
-    main()
+main()
